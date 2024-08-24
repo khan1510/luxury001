@@ -14,7 +14,9 @@ body{
 .navbar-nav a:hover{
     color: #fca61f;
 }
-
+.navbar img{
+    overflow: hidden
+}
 /* .navbar-nav a:after {    
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
@@ -114,9 +116,9 @@ body{
 }
 /* adding animation to home section image  */
 .home img{
+    overflow: hidden;
     animation: floatimg 4s ease-in-out infinite;
 }
-
 @keyframes floatimg {
     0%{
         transform: translateX(0);
@@ -134,6 +136,9 @@ body{
     color: #6f34fe;
     font-size: 1.5rem;
     font-weight: 600;
+}
+.service-card img{
+    overflow: hidden;
 }
 .heading h3{
     margin-top: 0.5rem;
@@ -159,7 +164,7 @@ body{
 }
 
 /* skill section starts */
-.skill{
+/* .skill{
     background-color: rgb(234, 234, 249);
 }
 .progress-card{
@@ -213,7 +218,7 @@ body{
 }
 .heading p{
     font-size: 1.3rem;
-}
+} */
 
 /* portfolio section starts */
 #myBtnContainer{
@@ -245,6 +250,9 @@ body{
 }
 
 /* testimonial section starts */
+.testimonial{
+    overflow: hidden !important;
+}
 .testimonial img:hover{
     transform: scale(1.2,1.2);
     transition-duration: 1s;
@@ -274,6 +282,7 @@ body{
 
 /* blog section starts */
 .blog{
+    overflow: hidden;
     background-color: #f2f2ff;
 }
 .blog .blogpost .card{
@@ -326,6 +335,7 @@ body{
 }
 /* contact section starts */
 .contact{
+    overflow: hidden;
     background-color: #f3f3f3;
 }
 .contact-details i{
