@@ -11,7 +11,7 @@ body{
     color: #fca61f;
 }
 /* styling navbar links  */
-.navbar-nav a:hover{
+ .navbar-nav a:hover{
     color: #fca61f;
 }
 .navbar img{
@@ -354,6 +354,9 @@ body{
     padding: 10px 10px;
     width: 80%;
 }
+.contact-form #message{
+    height: 100px;
+}
 
 /* footer section starts */
 footer{
@@ -371,7 +374,7 @@ footer .link-group a{
 footer .link-group a:hover{
     color: #fca61f;
 }
-.social-links button{
+/* .social-links button{
     border: none;
     margin-right: 1rem;
     font-size: 1.2rem;
@@ -385,22 +388,34 @@ footer .link-group a:hover{
     color: #fff;
     transform: translateY(-20px);
     transition-duration: 1s;
-}
-.social-links .dribble:hover{
+} */
+/* .social-links .dribble:hover{
     background-color: #f33a7e;
-}
-.social-links .whatsapp{
+} */
+.social-links .whatsappbtn{
     color: #25D366;
+}
+.social-links .whatsappbtn i{
+    transition: .2s;
+    background: white;
+    padding: 14px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.social-links .whatsappbtn i:hover{
+    background: #25D366;
+    padding: 17px;
+    color: #f2f2ff;
 }
 .social-links .whatsapp:hover{
     background-color: #25D366;
 }
-.social-links .behance{
+/* .social-links .behance{
     color: #255afc;
 }
 .social-links .behance:hover{
     background-color: #255afc;
-}
+} */
 
 /* styling back to top button */
 #btn-back-to-top {
