@@ -15,7 +15,7 @@ body{
     color: #fca61f;
 }
 .navbar img{
-    overflow: hidden
+    overflow: hidden !important;
 }
 /* .navbar-nav a:after {    
     background: none repeat scroll 0 0 transparent;
@@ -116,7 +116,7 @@ body{
 }
 /* adding animation to home section image  */
 .home img{
-    overflow: hidden;
+    overflow: hidden !important;
     animation: floatimg 4s ease-in-out infinite;
 }
 @keyframes floatimg {
